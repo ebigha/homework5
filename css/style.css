@@ -75,6 +75,7 @@ footer{
 
 #logo{
   animation-duration: 15s;
+  animation-name: logo_wiggle;
 }
 
 /* Cards! */
@@ -208,7 +209,7 @@ header{
 
   .nav_links{
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 
   }
 
@@ -240,7 +241,7 @@ header{
 
 /@media (prefers-reduced-motion: reduce) {
   #logo {
-            animation: none;
+    animation: none;
   }
 }
 /*Your code here again.*/ 
