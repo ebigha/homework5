@@ -243,7 +243,7 @@ header{
   /*You will want four selectors*/  
 }
 
-/@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: reduce) {
   #logo {
     animation: none;
   }
