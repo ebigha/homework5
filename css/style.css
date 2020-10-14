@@ -239,6 +239,11 @@ header{
   #gallery{
     display: none;
   }
+
+  body{
+    background-image: none;
+  }
+
   /*Your code here again.*/
   /*You will want four selectors*/  
 }
